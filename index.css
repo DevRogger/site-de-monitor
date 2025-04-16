@@ -12,7 +12,7 @@ p{
     margin-bottom: 62px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
 }
 header{
     background-image:repeating-linear-gradient(to bottom, rgb(119, 0, 255) , rgb(42, 3, 46));
@@ -114,6 +114,11 @@ h2{
     font-family:'rou';
     font-size: 44px;
     color: rgb(49, 49, 49);
+}
+.videoelx{
+    text-align: center;
+    font-size: 70px;
+    color: black;
 }
 footer{
     text-align: center;

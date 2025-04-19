@@ -6,183 +6,170 @@
 font-family: 'rou' ;
 src: url('fonts/American\ Jets\ -\ Personal\ Used.otf') format('opentype');
 }
-p{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-bottom: 62px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* --------- GERAL --------- */
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  p {
     text-align: justify;
-    font-size: 20px;
-}
-header{
-    background-image:repeating-linear-gradient(to bottom, rgb(119, 0, 255) , rgb(42, 3, 46));
-    padding:22px;
-    min-width: 613px;
-    max-width: 1900px;
-    margin: auto;
-    margin-top: -10px;
-    margin-right: -20px;
-    margin-left: -46px;
-}
-.home,.cu,.fale{
-    text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    border-radius:7px;
-    margin-right: 29px;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.home{
-    margin-left: 40px;
-}
-    
-.home:hover{
-   background-color:  rgb(153, 0, 255);
-   color:  rgb(255, 255, 255);
-   transition: .4s;
-}
-.fale:hover{
-   background-color: rgb(153, 0, 255);
-   color: white;
-   transition: .4s;
-}
-.cu:hover{
-   background-color: rgb(153, 0, 255);
-   color: white;
-   transition-duration: .4s;
-}
-.le{
-    text-align: justify;
-    line-height: 35px;
-}
-.monitor{
-    border-radius: 6%;
+    color: #000;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+  }
+  
+  /* --------- HEADER E NAVEGAÇÃO --------- */
+  header {
+    background-image: repeating-linear-gradient(to bottom, rgb(119, 0, 255), rgb(42, 3, 46));
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
     text-align: center;
-    width: 462px;
-    margin: auto;
-    margin-right: 27px;
-    display: inline-flex;
-}
-.logo{
-width: 400px;
-margin: auto;
-display: block;
-margin-bottom: 20px;
-}
-.gof{
-    margin: auto;
-    text-align: center;
-}
-.video{
-    background-color: rgb(94, 97, 97);
-    padding: 1%;
-    min-width:600px;
-    max-width: 600px;
-   border-radius: 10px;
-   margin: auto;
-}
-iframe{
-    min-width: 40px;
-    box-shadow: 1px 5px 50px rgb(0, 0, 0);
-    border-radius: 10px;
-}
-.video:hover{
-    background-color: rgb(153, 0, 255);
-    transition-duration: .4s;
-}
-iframe:hover{
-    box-shadow: 1px 5px 50px  rgb(0, 0, 0);
-    transition-duration: .4s;
-}
-.link{
+  }
+  
+  .home, .cu, .fale {
     text-decoration: none;
-    font-family:'Times New Roman', Times, serif
-}
-mark{
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 18px;
+  }
+  
+  .home:hover,
+  .cu:hover,
+  .fale:hover {
     background-color: rgb(153, 0, 255);
-    border-radius: 2%;
-    border: solid rgb(76, 9, 85);
-    padding-left: 10px;
-    padding-right: 10px;
     color: white;
-}
-h2{
+    transition: 0.4s;
+  }
+  
+  /* --------- MAIN --------- */
+  main {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 30px black;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  
+  h2 {
     text-align: justify;
-    margin-top: 60px;
-    font-family:'rou';
-    font-size: 44px;
-    color: rgb(49, 49, 49);
-}
-.videoelx{
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #313131;
+    font-family: 'rou';
+    font-size: 40px;
+  }
+  
+  .le {
+    line-height: 1.7;
+  }
+  
+  /* --------- IMAGENS E MONITORES --------- */
+  .logo {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  
+  .imgg {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .monitor, .monitor2, .monitor3 {
+    border-radius: 6%;
+    width: 100%;
+    max-width: 462px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .monitor:hover, .monitor2:hover, .monitor3:hover {
+    box-shadow: 3px 6px 70px rgb(153, 0, 255);
+    transition: 0.7s;
+    transform: translate(7px, 3px);
+  }
+  
+  /* --------- VIDEO --------- */
+  .video {
+    background-color: #5e6161;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  
+  iframe {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 50px #000;
+  }
+  
+  /* --------- MARCAÇÃO --------- */
+  mark {
+    background-color: rgb(153, 0, 255);
+    border-radius: 2px;
+    border: solid rgb(76, 9, 85);
+    padding: 0 10px;
+    color: white;
+  }
+  
+  /* --------- FOOTER --------- */
+  footer {
     text-align: center;
-    font-size: 70px;
-    color: black;
-}
-footer{
-    text-align: center;
-    margin-top: 4%;
     background-color: black;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: -20px;
-    margin-right: -20px;
-    min-width: 613px;
-}
-main{
-
-    background-color: rgb(204, 204, 204);
-    margin-left: -7px;
-    padding: 20px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    box-shadow: 3px 4px 30px black;
-    min-width: 613px;
-    max-width: 1900px;
-    margin-right: -20px;
-}
-.imgg{
-    max-width: 1900px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    min-width: 613px;
-
-}
-.monitor:hover{
-    box-shadow: 3px 6px 70px rgb(153, 0, 255);
-    transition-duration: .7s;
-    translate: 7px 3px;
-}
-.monitor2{
-    border-radius: 6%;
-    display: inline;
-    width: 462px;
-    margin-bottom: -2px;
-    margin-right: 25px;
-    margin-top: 20px;
-}
-.monitor2:hover{
-    box-shadow: 3px 6px 70px rgb(153, 0, 255);
-    transition-duration: .7s;
-    translate: 7px 3px;
-}
-.monitor3{
-    border-radius: 6%;
-    width: 462px;
-    margin-right: 27px;
-    display: inline;
-    margin-top: 20px;
-}
-.monitor3:hover{
-    box-shadow: 3px 6px 70px rgb(153, 0, 255);
-    transition-duration: .7s;
-    translate: 7px 3px;
-}
-body{
-    margin-right: 20px;
-    min-width: 600px;
-}
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  /* --------- RESPONSIVIDADE --------- */
+  @media (max-width: 768px) {
+    .home, .cu, .fale {
+      display: block;
+      margin: 10px auto;
+      width: 30%;
+      text-align: center;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      font-size: 45px;
+    }
+  
+    .videoelx {
+      font-size: 2.5rem;
+    }
+  
+    main {
+      padding: 15px;
+      margin: 1px;
+    }
+  
+    .monitor, .monitor2, .monitor3 {
+      max-width: 100%;
+      display: block;
+    }
+  
+    iframe {
+      height: 220px;
+    }
+  }
+  

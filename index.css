@@ -142,10 +142,11 @@ body {
   /* --------- RESPONSIVIDADE --------- */
   @media (max-width: 768px) {
     .home, .cu, .fale {
-      display: block;
+      display: inline;
       margin: 10px auto;
       width: 30%;
       text-align: center;
+      margin-left: 20px;
     }
   
     h2 {

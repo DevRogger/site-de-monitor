@@ -152,6 +152,9 @@ footer {
     text-align: center;
     margin-left: 20px;
   }
+  .home{
+    margin-left: -6px;
+  }
   
   h2 {
     font-size: 1.5rem;

@@ -18,7 +18,7 @@ p {
   text-align: center;
   color: #000;
   margin-bottom: 40px;
-  font-size: 2.9rem;
+  font-size: 2.0rem;
   font-family: sans-serif;
 }
   
@@ -84,7 +84,7 @@ h2 {
   margin-top: 40px;
   color: #313131;
   font-family: 'rou';
-  font-size: 70px;
+  font-size: 55px;
 }
 
 .vi{
@@ -176,14 +176,22 @@ span{
   .home, .cu, .fale {
     display:block;
     margin: 10px auto;
-    width: 30%;
+    width: 50%;
     text-align: center;
+  }
+
+  p {
+    font-size: 1.1em;
   }
   
   h2 {
     font-size: 1.5rem;
     text-align: center;
-    font-size: 53px;
+    font-size: 35px;
+  }
+
+  .letra {
+    margin-top: 35px;
   }
   
   main {

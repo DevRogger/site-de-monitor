@@ -59,6 +59,7 @@ main {
   max-width: 1800px;
   margin: 20px auto;
   box-sizing: border-box;
+  position: relative;
 }
 
 .conteudo2{
@@ -119,6 +120,7 @@ h2 {
   display: inline;
   margin-left: 40px;
   margin-top: 70px;
+  transform: translate(7px, 10px);
 }
 
 .monitor44 {

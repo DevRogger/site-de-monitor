@@ -63,14 +63,14 @@ main {
 
 .conteudo2{
   background-color: #ffffff;
-  max-width: 1200px;
+  max-width: 560px;
   margin-bottom: 100px;
   margin-top: -80px;
 }
 
 .conteudo1{
   background-color: #ffffff;
-  max-width: 1200px;
+  max-width: 560px;
   margin-bottom: 100px;
   margin-top: 70px;
 }
@@ -94,6 +94,7 @@ h2 {
   
 .le {
   line-height: 1.7;
+  font-size: 50px;
 }
   
   /* --------- IMAGENS E MONITORES --------- */
@@ -102,6 +103,14 @@ h2 {
   max-width: 400px;
   display: block;
   margin: 0 auto 20px auto;
+}
+
+.conteudo3{
+  font-size: 60px;
+  background-color: #ffffff;
+  max-width: 900px;
+  margin-bottom: 100px;
+  margin-top: 70px;
 }
   
 .imgg {
@@ -186,13 +195,14 @@ span{
   }
   
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .letra {
     margin-top: 35px;
+    font-size: 35px ;
   }
   
   main {

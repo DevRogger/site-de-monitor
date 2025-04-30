@@ -38,14 +38,16 @@ header {
   border-radius: 7px;
   margin: 5px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'rou';
 }
   
 .home:hover,
 .cu:hover,
 .fale:hover {
   background-color: rgb(153, 0, 255);
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: gold;
   transition: 0.4s;
 }
   
@@ -54,7 +56,6 @@ main {
   background-color:  #ccc;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 3px 4px 30px black;
   width: 100%;
   max-width: 1800px;
   margin: 20px auto;
@@ -63,28 +64,27 @@ main {
 
 .conteudo2{
   background-color: #ffffff;
-  max-width: 560px;
   margin-bottom: 100px;
   margin-top: -80px;
 }
 
 .conteudo1{
   background-color: #ffffff;
-  max-width: 560px;
   margin-bottom: 100px;
   margin-top: 70px;
 }
 
-.be{
-  text-align: center;
+.be {
+  text-align: left;
+  padding-left: 60px;
 }
   
 h2 {
-  text-align: center;
   margin-top: 40px;
-  color: #313131;
+  color: #4d4c4c;
   font-family: 'rou';
   font-size: 55px;
+  padding-left: 60px;
 }
 
 .vi{
@@ -108,7 +108,7 @@ h2 {
 .conteudo3{
   font-size: 60px;
   background-color: #ffffff;
-  max-width: 900px;
+  max-width: 1300px;
   margin-bottom: 100px;
   margin-top: 70px;
 }
@@ -195,16 +195,25 @@ span{
   }
   
   h2 {
-    font-size: 1.6rem;
     text-align: center;
     font-size: 50px;
+    padding-left: 0px;
   }
 
   .letra {
     margin-top: 35px;
     font-size: 35px ;
   }
+
+  .be{
+    padding-left: 0px;
+    text-align: center;
+  }
   
+  h2{
+    text-align: center;
+  }
+
   main {
     padding: 15px;
     margin: 1px;

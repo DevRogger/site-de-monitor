@@ -150,7 +150,6 @@ h2 {
 .monitor:hover, .monitor2:hover, .monitor3:hover {
   box-shadow: 3px 6px 70px rgb(153, 0, 255);
   transition: 0.7s;
-  transform: translate(7px, 3px);
 }
   
   /* --------- VIDEO --------- */

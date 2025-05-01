@@ -28,6 +28,13 @@ header {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  position: relative;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+  background-image: repeating-linear-gradient(to bottom, rgb(119, 0, 255), rgb(42, 3, 46));
 }
 
 #home1 {
@@ -134,7 +141,6 @@ h2 {
   display: inline;
   margin-left: 40px;
   margin-top: 70px;
-  transform: translate(7px, 10px);
 }
 
 .monitor44 {

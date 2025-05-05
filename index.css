@@ -201,6 +201,10 @@ span{
     text-align: center;
   }
 
+  header {
+    position:static;
+  }
+
   #home1 {
     padding-left: 20px;
     padding-right: 20px;
@@ -244,5 +248,4 @@ span{
   iframe {
     height: 220px;
   }
-}
-  
+} 

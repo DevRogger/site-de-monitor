@@ -188,7 +188,7 @@ footer {
   margin-top: 30px;
 }
 
-span{
+span {
   color: #6c03b363;
 }
   
@@ -200,6 +200,12 @@ span{
     width: 50%;
     text-align: center;
   }
+
+  .como {
+    text-align: center;
+    font-size: 40px;
+    margin-left: -70px;
+    }
 
   header {
     position:static;

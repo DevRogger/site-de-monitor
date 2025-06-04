@@ -55,8 +55,8 @@ header {
 }
   
 .home:hover,
-.cu:hover,
-.fale:hover {
+.curiosidade:hover,
+.fale-conosco:hover {
   background-color: rgb(153, 0, 255);
   color: rgb(0, 0, 0);
   background-color: gold;

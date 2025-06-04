@@ -134,7 +134,7 @@ span {
 
   /* --------- IMAGENS E MONITORES --------- */
   
-.imgg {
+.img-240hz {
   width: 100%;
   max-width: 100%;
   border-radius: 10px;
@@ -151,7 +151,7 @@ span {
   margin-top: 70px;
 }
 
-.monitor44 {
+.monitor-fundo {
   text-align: center;
 }
   
@@ -187,12 +187,9 @@ footer {
   padding: 15px;
   margin-top: 30px;
 }
-
-span {
-  color: #6c03b363;
-}
   
   /* --------- RESPONSIVIDADE --------- */
+
 @media (max-width: 768px) {
   
   header {
@@ -238,11 +235,6 @@ span {
     font-size: 40px;
     margin-left: -70px;
     }
-
-  .be {
-    padding-left: 0px;
-    text-align: center;
-  }
   
   iframe {
     height: 220px;

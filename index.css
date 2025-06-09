@@ -49,6 +49,10 @@ header {
   font-family: 'rou';
 }
 
+#barra-menu{
+  display: none;
+}
+
 #home-sozinho {
   padding-left: 60px;
   padding-right: 60px;
@@ -197,7 +201,24 @@ footer {
   header {
     position:static;
   }
+
+  .menu{
+    display: none;
+  }
   
+  #menu2{
+
+    display: block;
+  }
+
+  #barra-menu {
+
+    margin-left: -410px;
+    font-size: 30px;
+    color: white;
+    display: block;
+  }
+
   .home, .cu, .fale {
     display:block;
     margin: 10px auto;

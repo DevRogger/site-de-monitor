@@ -49,7 +49,11 @@ header {
   font-family: 'rou';
 }
 
-#barra-menu{
+#barra-menu {
+  display: none;
+}
+
+.menu3 {
   display: none;
 }
 

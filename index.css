@@ -29,11 +29,9 @@ header {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  position: relative;
 }
 
 header {
-  position: sticky;
   top: 0px;
   background-image: repeating-linear-gradient(to bottom, rgb(119, 0, 255), rgb(42, 3, 46));
 }
@@ -88,47 +86,63 @@ header {
 /*-------------TEXTOS------------ */
 
 .contein1 {
-  background-color: white;
   margin-bottom: 100px;
   margin-top: 70px;
+  background-color: white;
 }
 
 
-.contein2{
-  background-color: #ffffff;
+.contein2 {
   margin-bottom: 100px;
   margin-top: -80px;
-}
+  background-color: white;
+ 
+} 
 
-.contein3{
+.contein3 {
   font-size: 60px;
-  background-color: #ffffff;
   max-width: 1300px;
   margin-bottom: 100px;
   margin-top: 70px;
+  background-color: white;
 }
 
 .text-p {
-  text-align: center;
   color: #000;
   margin-bottom: 40px;
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.7;
   font-size: 50px;
+  width: 60vw;
+  margin-left: 50px;
+}
+
+#jogo {
+  float: right;
+  margin-top: -730px;
+  margin-right: 100px;
+  width: 630px;
+}
+
+.fundo-text{
+  background-color: white;
+  border-radius: 20px;
 }
 
 #text-como-h2 {
-  text-align: left;
+  text-align: center;
   padding-left: 60px;
   font-size: 50px;
+  vertical-align: auto;
 }
   
 .text-h2 {
   margin-top: 40px;
-  color: #4d4c4c;
+  color: #000000;
   font-family: 'rou';
-  font-size: 50px;
+  font-size: 57px;
   padding-left: 60px;
+  text-align: left;
 }
 
 #text-explica {
@@ -163,6 +177,13 @@ span {
 
 .monitor-fundo {
   text-align: center;
+  display: flex;
+  text-decoration: none;
+}
+
+#mot {
+  flex: auto;
+  width: 55px;
 }
   
 .monitor:hover, .monitor2:hover, .monitor3:hover {
@@ -171,6 +192,7 @@ span {
 }
   
   /* --------- VIDEO --------- */
+
 .video {
   background-color: #5e6161;
   padding: 10px;
@@ -206,11 +228,15 @@ footer {
     position:static;
   }
 
-  .menu{
+  .menu {
     display: none;
   }
+
+  .monitor-fundo {
+    display: block;
+  }
   
-  #menu2{
+  #menu2 {
 
     display: block;
   }

@@ -264,6 +264,15 @@ footer {
   main {
     padding: 15px;
     margin: 1px;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .contein1{
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .contein2{
+     border-radius: 20px 20px 0px 0px;
   }
 
   .monitor, .monitor2, .monitor3 {
@@ -275,12 +284,21 @@ footer {
   .text-p {
     margin-top: 35px;
     font-size: 35px ;
+    width: 70vw;
   }
   
   .text-h2 {
     text-align: center;
     font-size: 50px;
     padding-left: 0px;
+  }
+
+  #text-explica{
+    margin-right: -41px;
+  }
+
+  #beh2{
+    margin-left: -49px;
   }
 
   #text-como-h2 {

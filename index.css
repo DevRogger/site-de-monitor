@@ -210,14 +210,39 @@ iframe {
   box-shadow: 1px 5px 50px #000;
 }
 
-footer {
+/*-----FOOTER-----*/
+
+footer.roda-fundo {
   background-color: rgb(129, 103, 248);
   color: white;
   padding: 15px;
   margin-top: 30px;
+  height: 180px;
+  display: flex;;
+}
+
+#img-roda {
+  width: 220px;
+  height: 100px;
+  margin-left: -20px;
+}
+
+#roda-text-fundo {
+  flex-wrap: wrap;
+  justify-items: center;
+  width: 600px;
+  margin-right: 200px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+
+#roda-text {
+  list-style-type: none;
+  font-size: 20px;
 }
   
-  /* --------- RESPONSIVIDADE --------- */
+/* --------- RESPONSIVIDADE --------- */
 
 @media (max-width: 768px) {
   
@@ -267,7 +292,7 @@ footer {
   }
 
   .contein2{
-     border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
   }
 
   .monitor, .monitor2, .monitor3 {
@@ -307,19 +332,11 @@ footer {
   }
 
   /* ----FOOTER----*/
-
-
-  #roda-img {
-    width: 150px;
-    margin-left: 0px;
-    margin-top: 20px;
-  }
-  
-  .roda-img-fundo{
-    width: 30px;
-  }
    
-  footer{
+  footer {
     padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
   }
-} 
+
+}

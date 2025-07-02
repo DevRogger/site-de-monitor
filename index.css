@@ -333,10 +333,42 @@ footer.roda-fundo {
 
   /* ----FOOTER----*/
    
-  footer {
+  footer.roda-fundo {
     padding: 10px;
     flex-wrap: wrap;
     display: flex;
+    height: 350px;
   }
 
+  #roda-text {
+    font-size: 18px;
+  }
+
+  #roda-text-fundo{
+    display: flex;
+    gap: 70px;
+    margin: 0px;
+    margin-left: 20px;
+  }
+
+  .redes{
+    display: flex;
+    font-size: 50px;
+    width: 160px;
+    margin-left: 21px;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(255, 0, 0, 0);
+    gap: 30px;
+
+  }
+
+  #whatsapp {
+    color: wheat;
+
+  }
+
+  #instagram {
+    color: wheat;
+  }
 }

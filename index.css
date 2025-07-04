@@ -245,6 +245,21 @@ footer.roda-fundo {
   list-style-type: none;
   font-size: 20px;
 }
+
+.redes {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  font-size: 50px;
+  height: 70px;
+  margin-top: 120px;
+  margin-left: -175px;
+  width:150px;
+  gap: 30px;
+}
+
+#whatsapp, #instagram {
+  color: white;
+}
   
 /* --------- RESPONSIVIDADE --------- */
 
@@ -388,7 +403,7 @@ footer.roda-fundo {
     margin-left: 20px;
   }
 
-  .redes{
+  .redes {
     display: flex;
     font-size: 50px;
     width: 160px;
@@ -397,6 +412,8 @@ footer.roda-fundo {
     justify-content: start;
     background-color: rgba(255, 0, 0, 0);
     gap: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
   }
 

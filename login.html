@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="tamanho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
         <section>
             <div id="imagem2"  ><img src="imagem/monito-removebg-preview.png" alt=""></div>
-            <form action="index.html">
+            <form action="index.html" method="post">
                 <h2>welcome login</h2>
                 <p>faz seu prechimento aqui</p>
                 <div id="fundo-formulario" >
                     <div id="email">
-                        <label  for="iemail">email</label>
-                        <input type="email" id="iemail">
+                        <label  for="iemail">
+                            <i class="fa-solid fa-user"></i>
+                        </label>
+                        <input type="email" id="iemail" maxlength="40" placeholder="seu email">
                     </div>
                     <div id="senha">
-                        <label for="isenha">senha</label>
-                        <input type="password" name="senha" id="isenha">
+                        <label for="isenha">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </label>
+                        <input type="password" name="senha" id="isenha" minlength="8" placeholder="sua senha" >
                     </div>
                 </div>
             </form>

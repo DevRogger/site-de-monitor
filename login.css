@@ -72,6 +72,7 @@ div > label > input[type=password] {
 }
 
 input[type=submit] {
+
     border: none;
     background-color: rgb(91, 35, 143);
     color: white;
@@ -82,19 +83,40 @@ input[type=submit] {
     font-size: 20px;
     margin-bottom: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
 }
+
+i {
+    margin-left: -4px;
+}
+
+
+/*-----AJUDA-----*/
+
 
 #opecoes {
     margin-bottom: -60px;
     text-align: center;
+    margin-left: -20px;
 }
 
-a{
+#cartao {
+    color: rgb(0, 0, 0);
+}
+
+#mao {
+    color:rgb(0, 0, 0);
+}
+
+a {
     text-decoration: none;
-    margin-right: 40px;
-
+    color: rgb(0, 0, 0);
 }
 
-i {
-    margin-left: -10px;
+div#opecoes > i {
+    margin-left: 30px;
+}
+
+a:hover {
+    color: rgb(136, 27, 204);
 }

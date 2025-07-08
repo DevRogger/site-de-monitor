@@ -1,10 +1,14 @@
 main{
     width: 100vw;
     height: 100vh;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(imagem/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom, bottom;
+
 }
 
 * {
@@ -20,6 +24,12 @@ main{
     background-color: aqua;
     width: 300px;
     text-align: center;
+    align-content: center;
+    height: 200px;
+    background-image: url(imagem/pamonha.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #formulario {
@@ -28,12 +38,13 @@ main{
     height: 400px;
     align-content: center;
     justify-items: center;
+    border-radius: 0px 0px 20px 20px;
 }
 
 h2 {
     text-align: center;
     margin-top: -70px;
-    font-size:30px;
+    font-size:35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -87,7 +98,7 @@ input[type=submit] {
 }
 
 i {
-    margin-left: -4px;
+    margin-left: -20px;
 }
 
 
